@@ -1,0 +1,45 @@
+{
+  "run_id": "cube_nm_greedy_seed0",
+  "timestamp": "2026-11-05T03:11:45+00:00",
+  "config_name": "cube_nm_greedy",
+  "config": {
+    "dataset": "cube_nm",
+    "method": "greedy",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "greedy",
+    "test_cap": 500
+  },
+  "seed": 0,
+  "metrics": {
+    "classifier_val_acc": 0.821,
+    "acc_t1": 0.156,
+    "acc_t2": 0.194,
+    "acc_t3": 0.234,
+    "acc_t4": 0.274,
+    "acc_t5": 0.308,
+    "acc_t6": 0.362,
+    "acc_t7": 0.436,
+    "acc_t8": 0.504,
+    "acc_t9": 0.538,
+    "acc_t10": 0.604,
+    "acc_auc": 0.36100000000000004,
+    "evals_per_inst": 7450.0,
+    "sec_per_inst": 0.025222375847864895,
+    "open_rate": 0.0,
+    "n_instances": 500.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 13.516
+  }
+}

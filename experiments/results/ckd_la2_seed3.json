@@ -1,0 +1,46 @@
+{
+  "run_id": "ckd_la2_seed3",
+  "timestamp": "2026-11-05T02:15:35+00:00",
+  "config_name": "ckd_la2",
+  "config": {
+    "dataset": "ckd",
+    "method": "la2",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "lookahead",
+    "h": 2,
+    "candidates": "all"
+  },
+  "seed": 3,
+  "metrics": {
+    "classifier_val_acc": 1.0,
+    "acc_t1": 0.7375,
+    "acc_t2": 0.8875,
+    "acc_t3": 0.8875,
+    "acc_t4": 0.9625,
+    "acc_t5": 0.9625,
+    "acc_t6": 0.975,
+    "acc_t7": 0.9875,
+    "acc_t8": 1.0,
+    "acc_t9": 1.0,
+    "acc_t10": 1.0,
+    "acc_auc": 0.9400000000000001,
+    "evals_per_inst": 891120.0,
+    "sec_per_inst": 0.6994720037240768,
+    "open_rate": 1.0,
+    "n_instances": 80.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 56.089
+  }
+}

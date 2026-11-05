@@ -1,0 +1,44 @@
+{
+  "run_id": "ckd_static_seed0",
+  "timestamp": "2026-11-05T03:13:57+00:00",
+  "config_name": "ckd_static",
+  "config": {
+    "dataset": "ckd",
+    "method": "static",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "static"
+  },
+  "seed": 0,
+  "metrics": {
+    "classifier_val_acc": 1.0,
+    "acc_t1": 0.9375,
+    "acc_t2": 0.925,
+    "acc_t3": 0.95,
+    "acc_t4": 0.9625,
+    "acc_t5": 0.9875,
+    "acc_t6": 0.9875,
+    "acc_t7": 0.9875,
+    "acc_t8": 1.0,
+    "acc_t9": 0.9625,
+    "acc_t10": 0.9625,
+    "acc_auc": 0.9662500000000002,
+    "evals_per_inst": 0.0,
+    "sec_per_inst": 0.0006756998598575592,
+    "open_rate": 0.0,
+    "n_instances": 80.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 0.995
+  }
+}

@@ -1,0 +1,20 @@
+# X2 exploratory follow-up (post hoc; notes/experiments.md): per-state gate detail
+dataset = "physionet"
+method = "gatequality_x2"
+budget = 10
+risk = "brier"
+n_neighbors = 16
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = true
+policy = "gatequality"
+test_cap = 500
+x2_detail = true
+
+[hparams]
+eps = [0.005, 0.01, 0.02]
+screen_quantile = [0.9, 0.95, 0.99]
+m = [4, 8]

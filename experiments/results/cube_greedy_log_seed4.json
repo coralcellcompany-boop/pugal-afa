@@ -1,0 +1,44 @@
+{
+  "run_id": "cube_greedy_log_seed4",
+  "timestamp": "2026-11-05T02:45:30+00:00",
+  "config_name": "cube_greedy_log",
+  "config": {
+    "dataset": "cube",
+    "method": "greedy_log",
+    "budget": 10,
+    "risk": "log",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "greedy"
+  },
+  "seed": 4,
+  "metrics": {
+    "classifier_val_acc": 0.851,
+    "acc_t1": 0.298,
+    "acc_t2": 0.445,
+    "acc_t3": 0.597,
+    "acc_t4": 0.694,
+    "acc_t5": 0.752,
+    "acc_t6": 0.787,
+    "acc_t7": 0.803,
+    "acc_t8": 0.817,
+    "acc_t9": 0.835,
+    "acc_t10": 0.844,
+    "acc_auc": 0.6872,
+    "evals_per_inst": 2490.0,
+    "sec_per_inst": 0.008507815137738363,
+    "open_rate": 0.0,
+    "n_instances": 1000.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 9.178
+  }
+}

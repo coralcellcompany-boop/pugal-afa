@@ -1,0 +1,41 @@
+{
+  "run_id": "synmix_0.5_greedy_oracle_n16_seed3",
+  "timestamp": "2026-11-05T14:27:09+00:00",
+  "config_name": "synmix_0.5_greedy_oracle_n16",
+  "config": {
+    "dataset": "synmix_0.5",
+    "method": "greedy_oracle_n16",
+    "budget": 6,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "greedy",
+    "model": "oracle"
+  },
+  "seed": 3,
+  "metrics": {
+    "classifier_val_acc": 0.954,
+    "acc_t1": 0.705,
+    "acc_t2": 0.708,
+    "acc_t3": 0.708,
+    "acc_t4": 0.941,
+    "acc_t5": 0.941,
+    "acc_t6": 0.941,
+    "acc_auc": 0.8239999999999998,
+    "evals_per_inst": 1686.0,
+    "sec_per_inst": 0.0022592151237186046,
+    "open_rate": 0.0,
+    "n_instances": 1000.0
+  },
+  "meta": {
+    "git_commit": "4647306",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 2.429
+  }
+}

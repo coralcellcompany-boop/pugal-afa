@@ -1,0 +1,63 @@
+{
+  "run_id": "miniboone_gatequality_seed0",
+  "timestamp": "2026-11-04T21:02:22+00:00",
+  "config_name": "miniboone_gatequality",
+  "config": {
+    "dataset": "miniboone",
+    "method": "gatequality",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "gatequality",
+    "test_cap": 500,
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 0,
+  "metrics": {
+    "classifier_val_acc": 0.906,
+    "hp_eps": 0.01,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "auroc_syn": 0.7503137565249367,
+    "auroc_margin": 0.47105579403716047,
+    "auroc_learn": 0.8069711237413101,
+    "auroc_rand": 0.5567812710669854,
+    "frac_positive": 0.05444444444444444,
+    "mean_delta2": 0.001732212246628872,
+    "nmi": 0.04876681562126343,
+    "nmi_proxy": 0.8396409451527367,
+    "gamma_hat": 0.0,
+    "gamma_mean": 0.7970061457415323,
+    "n_states": 2700.0,
+    "n_instances": 300.0,
+    "sec_per_inst": 5.693178020973379
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 1708.198
+  }
+}

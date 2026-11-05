@@ -1,0 +1,49 @@
+{
+  "run_id": "cube_nm_la2_tie_seed4",
+  "timestamp": "2026-11-05T21:41:11+00:00",
+  "config_name": "cube_nm_la2_tie",
+  "config": {
+    "dataset": "cube_nm",
+    "method": "la2_tie",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "lookahead",
+    "h": 2,
+    "candidates": "all",
+    "test_cap": 500,
+    "tie": "greedy"
+  },
+  "seed": 4,
+  "metrics": {
+    "classifier_val_acc": 0.809,
+    "acc_t1": 0.118,
+    "acc_t2": 0.262,
+    "acc_t3": 0.448,
+    "acc_t4": 0.574,
+    "acc_t5": 0.65,
+    "acc_t6": 0.7,
+    "acc_t7": 0.758,
+    "acc_t8": 0.784,
+    "acc_t9": 0.812,
+    "acc_t10": 0.826,
+    "acc_auc": 0.5932000000000001,
+    "evals_per_inst": 5004058.0,
+    "sec_per_inst": 6.869595481741242,
+    "open_rate": 0.9,
+    "dev_rate": 0.4098,
+    "n_instances": 500.0
+  },
+  "meta": {
+    "git_commit": "1ef9d18",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 3435.804
+  }
+}

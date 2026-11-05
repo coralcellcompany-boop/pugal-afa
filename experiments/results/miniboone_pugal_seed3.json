@@ -1,0 +1,78 @@
+{
+  "run_id": "miniboone_pugal_seed3",
+  "timestamp": "2026-11-04T23:24:33+00:00",
+  "config_name": "miniboone_pugal",
+  "config": {
+    "dataset": "miniboone",
+    "method": "pugal",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "pugal",
+    "gate": "synergy",
+    "test_cap": 500,
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 3,
+  "metrics": {
+    "classifier_val_acc": 0.881,
+    "hp_eps": 0.01,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "n_flagged": 25.0,
+    "acc_t1": 0.808,
+    "acc_t2": 0.824,
+    "acc_t3": 0.846,
+    "acc_t4": 0.842,
+    "acc_t5": 0.844,
+    "acc_t6": 0.846,
+    "acc_t7": 0.846,
+    "acc_t8": 0.848,
+    "acc_t9": 0.85,
+    "acc_t10": 0.854,
+    "acc_auc": 0.8408,
+    "f1_t1": 0.7453526865291571,
+    "f1_t2": 0.7896709306105278,
+    "f1_t3": 0.8177005648914963,
+    "f1_t4": 0.8108156002892846,
+    "f1_t5": 0.8135719612229679,
+    "f1_t6": 0.8156050787629735,
+    "f1_t7": 0.8156050787629735,
+    "f1_t8": 0.8183521673454559,
+    "f1_t9": 0.8203945572366625,
+    "f1_t10": 0.8251840357103515,
+    "f1_auc": 0.8072252661361852,
+    "evals_per_inst": 1148852.504,
+    "sec_per_inst": 2.0041150297331622,
+    "open_rate": 0.599,
+    "n_instances": 500.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 1002.941
+  }
+}

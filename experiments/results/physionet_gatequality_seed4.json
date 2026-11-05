@@ -1,0 +1,63 @@
+{
+  "run_id": "physionet_gatequality_seed4",
+  "timestamp": "2026-11-04T21:07:10+00:00",
+  "config_name": "physionet_gatequality",
+  "config": {
+    "dataset": "physionet",
+    "method": "gatequality",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "gatequality",
+    "test_cap": 500,
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 4,
+  "metrics": {
+    "classifier_val_acc": 0.873,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 8.0,
+    "hp_tuned": 1.0,
+    "auroc_syn": 0.8648038536056453,
+    "auroc_margin": 0.41881298992161253,
+    "auroc_learn": 0.7463694697737251,
+    "auroc_rand": 0.4827138768908086,
+    "frac_positive": 0.0077777777777777776,
+    "mean_delta2": 0.0016986742232792621,
+    "nmi": 0.1514178299118406,
+    "nmi_proxy": 1.2873669618593764,
+    "gamma_hat": 0.0,
+    "gamma_mean": 0.7773623962181808,
+    "n_states": 2700.0,
+    "n_instances": 300.0,
+    "sec_per_inst": 3.8345642204163597
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 1281.634
+  }
+}

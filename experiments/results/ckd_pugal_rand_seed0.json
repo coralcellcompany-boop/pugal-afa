@@ -1,0 +1,51 @@
+{
+  "run_id": "ckd_pugal_rand_seed0",
+  "timestamp": "2026-11-05T03:08:40+00:00",
+  "config_name": "ckd_pugal_rand",
+  "config": {
+    "dataset": "ckd",
+    "method": "pugal_rand",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "pugal",
+    "gate": "random_matched"
+  },
+  "seed": 0,
+  "metrics": {
+    "classifier_val_acc": 1.0,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "gate_p": 0.3194444444444444,
+    "n_flagged": 6.0,
+    "acc_t1": 0.9375,
+    "acc_t2": 0.9375,
+    "acc_t3": 0.9375,
+    "acc_t4": 0.9625,
+    "acc_t5": 0.9625,
+    "acc_t6": 0.9875,
+    "acc_t7": 0.9875,
+    "acc_t8": 0.975,
+    "acc_t9": 0.9875,
+    "acc_t10": 0.9875,
+    "acc_auc": 0.9662500000000002,
+    "evals_per_inst": 66102.8,
+    "sec_per_inst": 0.09394506879616529,
+    "open_rate": 0.26125,
+    "n_instances": 80.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 7.723
+  }
+}

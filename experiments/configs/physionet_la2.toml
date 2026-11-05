@@ -1,0 +1,16 @@
+# E2 main comparison
+dataset = "physionet"
+method = "la2"
+budget = 10
+risk = "brier"
+n_neighbors = 16
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = true
+policy = "lookahead"
+h = 2
+candidates = "all"
+test_cap = 500

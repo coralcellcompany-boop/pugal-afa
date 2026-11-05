@@ -1,0 +1,77 @@
+{
+  "run_id": "bank_pugal_seed3",
+  "timestamp": "2026-11-05T03:33:20+00:00",
+  "config_name": "bank_pugal",
+  "config": {
+    "dataset": "bank",
+    "method": "pugal",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "pugal",
+    "gate": "synergy",
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 3,
+  "metrics": {
+    "classifier_val_acc": 0.875,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 8.0,
+    "hp_tuned": 1.0,
+    "n_flagged": 3.0,
+    "acc_t1": 0.877,
+    "acc_t2": 0.877,
+    "acc_t3": 0.884,
+    "acc_t4": 0.884,
+    "acc_t5": 0.884,
+    "acc_t6": 0.883,
+    "acc_t7": 0.883,
+    "acc_t8": 0.882,
+    "acc_t9": 0.884,
+    "acc_t10": 0.884,
+    "acc_auc": 0.8822000000000001,
+    "f1_t1": 0.4672349493873202,
+    "f1_t2": 0.4672349493873202,
+    "f1_t3": 0.554531490015361,
+    "f1_t4": 0.5714560151320359,
+    "f1_t5": 0.5767906135076761,
+    "f1_t6": 0.5809440578225566,
+    "f1_t7": 0.5809440578225566,
+    "f1_t8": 0.5799156983367509,
+    "f1_t9": 0.5919573384362117,
+    "f1_t10": 0.5919573384362117,
+    "f1_auc": 0.5562966508284,
+    "evals_per_inst": 123646.68,
+    "sec_per_inst": 0.4479557949623559,
+    "open_rate": 0.3104,
+    "n_instances": 1000.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 449.211
+  }
+}

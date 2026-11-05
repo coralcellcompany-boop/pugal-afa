@@ -1,0 +1,42 @@
+{
+  "run_id": "synmix_0.25_la2_seed1",
+  "timestamp": "2026-11-05T00:50:28+00:00",
+  "config_name": "synmix_0.25_la2",
+  "config": {
+    "dataset": "synmix_0.25",
+    "method": "la2",
+    "budget": 6,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "lookahead",
+    "h": 2,
+    "candidates": "all"
+  },
+  "seed": 1,
+  "metrics": {
+    "classifier_val_acc": 0.925,
+    "acc_t1": 0.504,
+    "acc_t2": 0.825,
+    "acc_t3": 0.904,
+    "acc_t4": 0.922,
+    "acc_t5": 0.929,
+    "acc_t6": 0.932,
+    "acc_auc": 0.8360000000000002,
+    "evals_per_inst": 394480.0,
+    "sec_per_inst": 0.6251197109529748,
+    "open_rate": 1.0,
+    "n_instances": 1000.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 626.101
+  }
+}

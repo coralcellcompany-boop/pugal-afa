@@ -1,0 +1,47 @@
+{
+  "run_id": "cube_nm_la2_seed0",
+  "timestamp": "2026-11-03T21:32:41+00:00",
+  "config_name": "cube_nm_la2",
+  "config": {
+    "dataset": "cube_nm",
+    "method": "la2",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "lookahead",
+    "h": 2,
+    "candidates": "all",
+    "test_cap": 500
+  },
+  "seed": 0,
+  "metrics": {
+    "classifier_val_acc": 0.821,
+    "acc_t1": 0.156,
+    "acc_t2": 0.138,
+    "acc_t3": 0.298,
+    "acc_t4": 0.48,
+    "acc_t5": 0.586,
+    "acc_t6": 0.666,
+    "acc_t7": 0.702,
+    "acc_t8": 0.738,
+    "acc_t9": 0.766,
+    "acc_t10": 0.776,
+    "acc_auc": 0.5306,
+    "evals_per_inst": 4997280.0,
+    "sec_per_inst": 7.323554452894721,
+    "open_rate": 1.0,
+    "n_instances": 500.0
+  },
+  "meta": {
+    "git_commit": "8a83ea0",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 3662.911
+  }
+}

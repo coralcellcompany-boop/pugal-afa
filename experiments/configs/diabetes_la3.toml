@@ -1,0 +1,16 @@
+# E2 main comparison
+dataset = "diabetes"
+method = "la3"
+budget = 10
+risk = "brier"
+n_neighbors = 8
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = true
+policy = "lookahead"
+h = 3
+candidates = "topm_flagged"
+test_cap = 500

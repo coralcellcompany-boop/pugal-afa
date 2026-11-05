@@ -1,0 +1,62 @@
+{
+  "run_id": "synmix_0_gatequality_seed0",
+  "timestamp": "2026-11-05T01:30:41+00:00",
+  "config_name": "synmix_0_gatequality",
+  "config": {
+    "dataset": "synmix_0",
+    "method": "gatequality",
+    "budget": 6,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "gatequality",
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 0,
+  "metrics": {
+    "classifier_val_acc": 0.926,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.95,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "auroc_syn": NaN,
+    "auroc_margin": NaN,
+    "auroc_learn": NaN,
+    "auroc_rand": NaN,
+    "frac_positive": 0.0,
+    "mean_delta2": 0.0021759420046149882,
+    "nmi": 0.027072272038020515,
+    "nmi_proxy": 0.07020348197852623,
+    "gamma_hat": 0.0,
+    "gamma_mean": 0.81685772256263,
+    "n_states": 1500.0,
+    "n_instances": 300.0,
+    "sec_per_inst": 0.5731693258330537
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 207.067
+  }
+}

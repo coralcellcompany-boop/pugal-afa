@@ -1,0 +1,17 @@
+# X4 exploratory follow-up (post hoc; notes/experiments.md): LA2 tie-breaking
+dataset = "synmix_0.5"
+method = "la2_tie_oracle_n16"
+budget = 6
+risk = "brier"
+n_neighbors = 16
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = true
+policy = "lookahead"
+h = 2
+candidates = "all"
+model = "oracle"
+tie = "greedy"

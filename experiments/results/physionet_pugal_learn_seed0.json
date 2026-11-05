@@ -1,0 +1,78 @@
+{
+  "run_id": "physionet_pugal_learn_seed0",
+  "timestamp": "2026-11-04T21:45:21+00:00",
+  "config_name": "physionet_pugal_learn",
+  "config": {
+    "dataset": "physionet",
+    "method": "pugal_learn",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "pugal",
+    "gate": "learned",
+    "test_cap": 500,
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 0,
+  "metrics": {
+    "classifier_val_acc": 0.871,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "n_flagged": 17.0,
+    "acc_t1": 0.852,
+    "acc_t2": 0.862,
+    "acc_t3": 0.862,
+    "acc_t4": 0.864,
+    "acc_t5": 0.864,
+    "acc_t6": 0.87,
+    "acc_t7": 0.868,
+    "acc_t8": 0.866,
+    "acc_t9": 0.868,
+    "acc_t10": 0.87,
+    "acc_auc": 0.8645999999999999,
+    "f1_t1": 0.46004319654427644,
+    "f1_t2": 0.5365332688510055,
+    "f1_t3": 0.5365332688510055,
+    "f1_t4": 0.5483288166214996,
+    "f1_t5": 0.5581201913079643,
+    "f1_t6": 0.5821279331404693,
+    "f1_t7": 0.5711166562694947,
+    "f1_t8": 0.5598533720487183,
+    "f1_t9": 0.5801740369446847,
+    "f1_t10": 0.5908398484219008,
+    "f1_auc": 0.552367058900102,
+    "evals_per_inst": 307967.64,
+    "sec_per_inst": 0.8414705867907032,
+    "open_rate": 0.145,
+    "n_instances": 500.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 421.232
+  }
+}

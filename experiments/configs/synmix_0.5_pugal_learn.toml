@@ -1,0 +1,19 @@
+# E2 main comparison
+dataset = "synmix_0.5"
+method = "pugal_learn"
+budget = 6
+risk = "brier"
+n_neighbors = 16
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = true
+policy = "pugal"
+gate = "learned"
+
+[hparams]
+eps = [0.005, 0.01, 0.02]
+screen_quantile = [0.9, 0.95, 0.99]
+m = [4, 8]

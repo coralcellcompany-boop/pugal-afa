@@ -1,0 +1,15 @@
+# E4 ablation (pugal's tuned eps/screen_quantile/m)
+dataset = "miniboone"
+method = "pugal_nofallback"
+budget = 10
+risk = "brier"
+n_neighbors = 16
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = false
+policy = "pugal"
+gate = "synergy"
+test_cap = 500

@@ -1,0 +1,62 @@
+{
+  "run_id": "actg175_gatequality_seed0",
+  "timestamp": "2026-11-05T03:28:38+00:00",
+  "config_name": "actg175_gatequality",
+  "config": {
+    "dataset": "actg175",
+    "method": "gatequality",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "gatequality",
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 0,
+  "metrics": {
+    "classifier_val_acc": 0.7780373831775701,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "auroc_syn": 0.9906145251396649,
+    "auroc_margin": 0.7436623215394165,
+    "auroc_learn": 0.943463687150838,
+    "auroc_rand": 0.613854748603352,
+    "frac_positive": 0.005555555555555556,
+    "mean_delta2": 0.002094421147447648,
+    "nmi": 0.0889182494628968,
+    "nmi_proxy": 0.4382461994186259,
+    "gamma_hat": 0.0,
+    "gamma_mean": 0.8472152819516406,
+    "n_states": 2700.0,
+    "n_instances": 300.0,
+    "sec_per_inst": 0.9664694252765427
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 289.988
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "run_id": "synmix_0.5_pugal_loss01_seed3",
+  "timestamp": "2026-11-05T02:00:55+00:00",
+  "config_name": "synmix_0.5_pugal_loss01",
+  "config": {
+    "dataset": "synmix_0.5",
+    "method": "pugal_loss01",
+    "budget": 6,
+    "risk": "01",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "pugal",
+    "gate": "synergy"
+  },
+  "seed": 3,
+  "metrics": {
+    "classifier_val_acc": 0.927,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "n_flagged": 4.0,
+    "acc_t1": 0.705,
+    "acc_t2": 0.706,
+    "acc_t3": 0.717,
+    "acc_t4": 0.865,
+    "acc_t5": 0.903,
+    "acc_t6": 0.913,
+    "acc_auc": 0.8015,
+    "evals_per_inst": 102274.328,
+    "sec_per_inst": 0.1481212978202384,
+    "open_rate": 0.479,
+    "n_instances": 1000.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 163.159
+  }
+}

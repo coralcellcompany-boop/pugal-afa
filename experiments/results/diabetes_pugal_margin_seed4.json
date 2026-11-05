@@ -1,0 +1,80 @@
+{
+  "run_id": "diabetes_pugal_margin_seed4",
+  "timestamp": "2026-11-05T00:13:52+00:00",
+  "config_name": "diabetes_pugal_margin",
+  "config": {
+    "dataset": "diabetes",
+    "method": "pugal_margin",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "pugal",
+    "gate": "margin",
+    "test_cap": 500,
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 4,
+  "metrics": {
+    "classifier_val_acc": 0.9,
+    "hp_eps": 0.005,
+    "hp_screen_quantile": 0.9,
+    "hp_m": 8.0,
+    "hp_tuned": 1.0,
+    "n_flagged": 198.0,
+    "acc_t1": 0.88,
+    "acc_t2": 0.892,
+    "acc_t3": 0.902,
+    "acc_t4": 0.898,
+    "acc_t5": 0.892,
+    "acc_t6": 0.9,
+    "acc_t7": 0.904,
+    "acc_t8": 0.906,
+    "acc_t9": 0.906,
+    "acc_t10": 0.906,
+    "acc_auc": 0.8986000000000001,
+    "f1_t1": 0.5395511564309518,
+    "f1_t2": 0.5517577056610513,
+    "f1_t3": 0.5623834122542689,
+    "f1_t4": 0.5602599737641155,
+    "f1_t5": 0.5539685116052588,
+    "f1_t6": 0.6272694302397273,
+    "f1_t7": 0.6317575164109818,
+    "f1_t8": 0.6354205200739854,
+    "f1_t9": 0.6354205200739854,
+    "f1_t10": 0.6354205200739854,
+    "f1_auc": 0.5933209266588312,
+    "evals_per_inst": 999159.696,
+    "sec_per_inst": 1.755748867450282,
+    "open_rate": 0.6328,
+    "n_instances": 500.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 878.772
+  }
+}

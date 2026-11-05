@@ -1,0 +1,62 @@
+{
+  "run_id": "bank_gatequality_seed3",
+  "timestamp": "2026-11-05T03:40:51+00:00",
+  "config_name": "bank_gatequality",
+  "config": {
+    "dataset": "bank",
+    "method": "gatequality",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "gatequality",
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 3,
+  "metrics": {
+    "classifier_val_acc": 0.875,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 8.0,
+    "hp_tuned": 1.0,
+    "auroc_syn": 0.7093131008919263,
+    "auroc_margin": 0.40779121260993145,
+    "auroc_learn": 0.7128193247734542,
+    "auroc_rand": 0.4552833937752274,
+    "frac_positive": 0.06592592592592593,
+    "mean_delta2": 0.0035922463313565476,
+    "nmi": 0.3616779145149137,
+    "nmi_proxy": 2.8230629981956072,
+    "gamma_hat": 0.0,
+    "gamma_mean": 0.6598287105854852,
+    "n_states": 2700.0,
+    "n_instances": 300.0,
+    "sec_per_inst": 1.0337775394460187
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 310.44
+  }
+}

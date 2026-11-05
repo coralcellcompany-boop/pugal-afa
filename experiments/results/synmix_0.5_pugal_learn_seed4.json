@@ -1,0 +1,62 @@
+{
+  "run_id": "synmix_0.5_pugal_learn_seed4",
+  "timestamp": "2026-11-05T01:34:11+00:00",
+  "config_name": "synmix_0.5_pugal_learn",
+  "config": {
+    "dataset": "synmix_0.5",
+    "method": "pugal_learn",
+    "budget": 6,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "pugal",
+    "gate": "learned",
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 4,
+  "metrics": {
+    "classifier_val_acc": 0.914,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "n_flagged": 4.0,
+    "acc_t1": 0.71,
+    "acc_t2": 0.701,
+    "acc_t3": 0.716,
+    "acc_t4": 0.916,
+    "acc_t5": 0.924,
+    "acc_t6": 0.927,
+    "acc_auc": 0.8156666666666667,
+    "evals_per_inst": 30454.104,
+    "sec_per_inst": 0.07214620903297328,
+    "open_rate": 0.03833333333333333,
+    "n_instances": 1000.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 106.234
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "run_id": "cube_la3_seed4",
+  "timestamp": "2026-11-05T02:49:34+00:00",
+  "config_name": "cube_la3",
+  "config": {
+    "dataset": "cube",
+    "method": "la3",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 8,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "lookahead",
+    "h": 3,
+    "candidates": "topm_flagged"
+  },
+  "seed": 4,
+  "metrics": {
+    "classifier_val_acc": 0.851,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "acc_t1": 0.173,
+    "acc_t2": 0.327,
+    "acc_t3": 0.479,
+    "acc_t4": 0.564,
+    "acc_t5": 0.663,
+    "acc_t6": 0.728,
+    "acc_t7": 0.773,
+    "acc_t8": 0.793,
+    "acc_t9": 0.826,
+    "acc_t10": 0.842,
+    "acc_auc": 0.6167999999999999,
+    "evals_per_inst": 330509.184,
+    "sec_per_inst": 0.4739848587920424,
+    "open_rate": 1.0,
+    "n_instances": 1000.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 475.283
+  }
+}

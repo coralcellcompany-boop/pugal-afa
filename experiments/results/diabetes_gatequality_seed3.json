@@ -1,0 +1,63 @@
+{
+  "run_id": "diabetes_gatequality_seed3",
+  "timestamp": "2026-11-04T20:29:18+00:00",
+  "config_name": "diabetes_gatequality",
+  "config": {
+    "dataset": "diabetes",
+    "method": "gatequality",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "gatequality",
+    "test_cap": 500,
+    "hparams": {
+      "eps": [
+        0.005,
+        0.01,
+        0.02
+      ],
+      "screen_quantile": [
+        0.9,
+        0.95,
+        0.99
+      ],
+      "m": [
+        4,
+        8
+      ]
+    }
+  },
+  "seed": 3,
+  "metrics": {
+    "classifier_val_acc": 0.905,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "auroc_syn": 0.8244041627644397,
+    "auroc_margin": 0.3218352574594533,
+    "auroc_learn": 0.9298124305257722,
+    "auroc_rand": 0.4416328959921576,
+    "frac_positive": 0.015925925925925927,
+    "mean_delta2": 0.0014862338196513366,
+    "nmi": 0.04704552658933553,
+    "nmi_proxy": 0.4819392752160497,
+    "gamma_hat": 0.0,
+    "gamma_mean": 0.7862510522532429,
+    "n_states": 2700.0,
+    "n_instances": 300.0,
+    "sec_per_inst": 5.690626391806484
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 1967.856
+  }
+}

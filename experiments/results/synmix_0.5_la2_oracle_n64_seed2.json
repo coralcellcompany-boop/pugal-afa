@@ -1,0 +1,43 @@
+{
+  "run_id": "synmix_0.5_la2_oracle_n64_seed2",
+  "timestamp": "2026-11-05T14:18:27+00:00",
+  "config_name": "synmix_0.5_la2_oracle_n64",
+  "config": {
+    "dataset": "synmix_0.5",
+    "method": "la2_oracle_n64",
+    "budget": 6,
+    "risk": "brier",
+    "n_neighbors": 64,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "lookahead",
+    "h": 2,
+    "candidates": "all",
+    "model": "oracle"
+  },
+  "seed": 2,
+  "metrics": {
+    "classifier_val_acc": 0.94,
+    "acc_t1": 0.732,
+    "acc_t2": 0.721,
+    "acc_t3": 0.721,
+    "acc_t4": 0.951,
+    "acc_t5": 0.951,
+    "acc_t6": 0.951,
+    "acc_auc": 0.8378333333333332,
+    "evals_per_inst": 6308800.0,
+    "sec_per_inst": 0.8535247706817463,
+    "open_rate": 1.0,
+    "n_instances": 1000.0
+  },
+  "meta": {
+    "git_commit": "4647306",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 853.964
+  }
+}

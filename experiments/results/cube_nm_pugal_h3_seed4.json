@@ -1,0 +1,51 @@
+{
+  "run_id": "cube_nm_pugal_h3_seed4",
+  "timestamp": "2026-11-04T06:34:18+00:00",
+  "config_name": "cube_nm_pugal_h3",
+  "config": {
+    "dataset": "cube_nm",
+    "method": "pugal_h3",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 3,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "pugal",
+    "gate": "synergy",
+    "test_cap": 500
+  },
+  "seed": 4,
+  "metrics": {
+    "classifier_val_acc": 0.809,
+    "hp_eps": 0.02,
+    "hp_screen_quantile": 0.99,
+    "hp_m": 4.0,
+    "hp_tuned": 1.0,
+    "n_flagged": 26.0,
+    "acc_t1": 0.118,
+    "acc_t2": 0.264,
+    "acc_t3": 0.4,
+    "acc_t4": 0.544,
+    "acc_t5": 0.656,
+    "acc_t6": 0.698,
+    "acc_t7": 0.76,
+    "acc_t8": 0.76,
+    "acc_t9": 0.792,
+    "acc_t10": 0.806,
+    "acc_auc": 0.5798,
+    "evals_per_inst": 5065022.008,
+    "sec_per_inst": 12.87606795573607,
+    "open_rate": 0.1964,
+    "n_instances": 500.0
+  },
+  "meta": {
+    "git_commit": "8a83ea0",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 12812.428
+  }
+}

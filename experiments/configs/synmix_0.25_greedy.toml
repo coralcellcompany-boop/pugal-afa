@@ -1,0 +1,13 @@
+# E5 rho sweep
+dataset = "synmix_0.25"
+method = "greedy"
+budget = 6
+risk = "brier"
+n_neighbors = 16
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = true
+policy = "greedy"

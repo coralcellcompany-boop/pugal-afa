@@ -1,0 +1,47 @@
+{
+  "run_id": "cube_nm_aaco_seed1",
+  "timestamp": "2026-11-05T00:44:09+00:00",
+  "config_name": "cube_nm_aaco",
+  "config": {
+    "dataset": "cube_nm",
+    "method": "aaco",
+    "budget": 10,
+    "risk": "brier",
+    "n_neighbors": 16,
+    "pool_size": 5000,
+    "h0": 2,
+    "h_max": 2,
+    "m": 8,
+    "cand_cap": 16,
+    "conf_fallback": true,
+    "policy": "aaco",
+    "k_nn": 5,
+    "n_subsets": 1000,
+    "test_cap": 500
+  },
+  "seed": 1,
+  "metrics": {
+    "classifier_val_acc": 0.818,
+    "acc_t1": 0.17,
+    "acc_t2": 0.198,
+    "acc_t3": 0.234,
+    "acc_t4": 0.262,
+    "acc_t5": 0.278,
+    "acc_t6": 0.354,
+    "acc_t7": 0.432,
+    "acc_t8": 0.46,
+    "acc_t9": 0.512,
+    "acc_t10": 0.58,
+    "acc_auc": 0.348,
+    "evals_per_inst": 44995.0,
+    "sec_per_inst": 0.18719408723013475,
+    "open_rate": 0.0,
+    "n_instances": 500.0
+  },
+  "meta": {
+    "git_commit": "b8aaf96",
+    "python": "3.12.9",
+    "host": "redacted",
+    "duration_s": 94.652
+  }
+}

@@ -1,0 +1,14 @@
+# X1 exploratory follow-up (post hoc; notes/experiments.md): model x n factorial
+dataset = "synmix_1"
+method = "greedy_learned_n16"
+budget = 6
+risk = "brier"
+n_neighbors = 16
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = true
+policy = "greedy"
+model = "learned"

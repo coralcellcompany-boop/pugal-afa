@@ -1,0 +1,19 @@
+# E0 smoke test, never in tables
+dataset = "smoke"
+method = "pugal"
+budget = 3
+risk = "brier"
+n_neighbors = 8
+pool_size = 5000
+h0 = 2
+h_max = 2
+m = 8
+cand_cap = 16
+conf_fallback = true
+policy = "pugal"
+gate = "synergy"
+
+[hparams]
+eps = [0.01]
+screen_quantile = [0.95]
+m = [4]
